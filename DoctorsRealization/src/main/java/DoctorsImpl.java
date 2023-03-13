@@ -6,15 +6,11 @@ public class DoctorsImpl {
         therapist.referral();
         System.out.println(therapist.getName());
         therapist.rotation(8);
-
         System.out.println("\u001B[33m" + "----------------------");
-
         dermatology.skinCheck();
         System.out.println(dermatology.salary);
         dermatology.rotation(10);
-
         System.out.println("\u001B[31m" + "----------------------");
-
         anesthesiology.prepareToOperation();
         System.out.println(anesthesiology.getExperienceInYears());
         anesthesiology.rotation(5);
